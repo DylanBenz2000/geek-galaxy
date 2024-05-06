@@ -1,0 +1,109 @@
+.nav__container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav__items{
+    display: flex;
+    gap: 10px;
+    font-size: 23px;
+}
+
+main{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.container__productos{
+    display: flex;
+    flex-direction: column;
+}
+
+.title{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.agregar__productos{
+    display: flex;
+    flex-direction: column;
+}
+.form__container{
+    display: flex;
+    justify-content: center;
+}
+
+.form__agregar__productos{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.buttons input{
+    width: 140px;
+    height: 35px;
+}
+
+.ul__cards{
+    margin-right: 18px;
+    margin-left: 18px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.card__image{
+    display: flex;
+    justify-items: center;
+}
+
+.price{
+    display: flex;
+    gap: 3px;
+}
+
+.price__trash{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer__items{
+    display: flex;
+    gap: 10px;
+    font-size: 14px;
+}
+
+
+/* Moviles */
+@media screen and (max-width: 800px) {
+    .container__productos{
+        
+    }
+}
+
+/* Tabletas */
+
+@media screen and (min-width: 768px) and (max-width: 1300px) {
+
+}
