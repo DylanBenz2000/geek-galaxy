@@ -8,20 +8,49 @@ body{
     width: 100%;
     height: 100vh;
     position: relative;
-    background-color: #0F4C81;
+    /* background-color: #0F4C81; */
+    /* background-color: #003366; */
+    
+    background-color: #000;
     color: #FFFFFF;
+
 }
+
+.fa-jedi .title__principal{
+    transition: color 0.3s ease;
+}
+
+.nav__items:hover .fa-jedi,
+.nav__items:hover .title__principal{
+    color: #FFE81F ;
+}
+
+.espacio{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 200vh;
+    background-image: url('../assets/espacio.jpg');
+    z-index: -1;
+    animation: animateSpace 45s linear infinite;
+}
+
 
 .nav__container{
     width: 100%;
-    height: 80px;
+    height: 90px;
     background-color: #000000;
     color: #FFF;
     font-size: 16px;
 }
 
+.title__productos{
+    color: #FFE81F;
+}
+
 .container__productos{
-    border: 3px solid red;
+    /* border: 3px solid red; */
     width: 50%;
     margin-top: 30px;
     margin-bottom: 30px;
@@ -29,7 +58,7 @@ body{
 }
 
 .agregar__productos{
-    border: 3px solid yellow;
+    /* border: 3px solid yellow; */
     width: 30%;
     height: 250px;
     margin-top: 30px;
@@ -38,24 +67,98 @@ body{
 
 
 .card{
-    height: 13rem;
-    width: 23%;
+    height: 14rem;
+    width: 30%;
     border-radius: 10px;
-    background-color: #0F4C81;
+    /* background-color: #0F4C81; */
+    background-color: #000080;
+    transition: transform 0.3s ease;
+}
+
+.card:hover{
+    transform: scale(0.9);
 }
 
 .card__image{
     width: 100%;
-    height: 80%;
+    height: 60%;
+    border-radius: 8px;
 }
+
+.container-title{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.card__title{
+    /* color: #FFD700; */
+    color: #fff;
+    padding: 0 5px 0 5px;
+}
+
+.price__trash{
+    padding: 0 5px 0 5px;
+}
+
+.precio__card{
+    color: #FFD700;
+}
+
+.price i, .fa-regular.fa-trash-can {
+    color: #FFD700;
+}
+
+.fa-trash-can{
+    cursor: pointer;
+}
+
 
 .form__container input{
     color: #000;
+    border: 3px solid #000080;
+    border-radius: 14px;
 }
 
 .form__container .buttons input{
     cursor: pointer;
-    border-radius: 8px;
+    border-radius: 20px;
+
+}
+
+.form__container input[type="text"],
+.form__container input[type="number"] {
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}
+
+.form__container input[type="text"]:hover,
+.form__container input[type="number"]:hover {
+    background-color: #333;
+    color: #fff;
+    border-color: #333;
+}
+
+.buttons .button-enviar{
+    /* background-color: #FFD700; */
+    background-color: #FF0000;
+    border: 2px solid #FF0000;
+    color: #fff;
+}
+
+.buttons .button-limpiar{
+    /* background-color: #8B0000; */
+    background-color: #fff;
+    color: #000;
+    border: 2px solid #000080;
+}
+
+.button-enviar, .button-limpiar{
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}
+
+.button-enviar:hover, .button-limpiar:hover{
+    background-color: #333;
+    color: #fff;
+    border-color: #333;
 }
 
 
@@ -64,4 +167,13 @@ footer{
     height: 80px;
     background-color: #000000;
     color: #fff;
+}
+
+
+@keyframes animateSpace{
+    from{
+        transform: translateY(0);
+    }to{
+        transform: translateY(-200vh);
+    }
 }
