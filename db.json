@@ -1,0 +1,70 @@
+{
+  "productos": [
+    {
+      "id": "2",
+      "nombre": "Casco Darth Vader",
+      "precio": "80,00",
+      "imagen": "https://m.media-amazon.com/images/I/41kX+M3d8cL._AC_.jpg"
+    },
+    {
+      "id": "4",
+      "nombre": "Casco Bo-Katan",
+      "precio": "120,00",
+      "imagen": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/a97ed372-95a2-441b-90e7-1ebe77fcd3f3.__CR0,0,970,600_PT0_SX970_V1___.jpg"
+    },
+    {
+      "id": "5",
+      "nombre": "Grogu",
+      "precio": "260,00",
+      "imagen": "https://m.media-amazon.com/images/I/71B7sN9XvlL._AC_UF894,1000_QL80_.jpg"
+    },
+    {
+      "id": "6",
+      "nombre": "Sable de luz verde",
+      "precio": "400,00",
+      "imagen": "https://m.media-amazon.com/images/I/61dZKAstxWL._AC_UF894,1000_QL80_.jpg"
+    },
+    {
+      "id": "8d14",
+      "nombre": "Sable de luz rojo",
+      "precio": "30",
+      "imagen": "https://static6.depositphotos.com/1118147/618/v/450/depositphotos_6185469-stock-illustration-red-light-saber.jpg"
+    },
+    {
+      "id": "4402",
+      "nombre": "Sable de luz azul",
+      "precio": "100",
+      "imagen": "https://pm1.aminoapps.com/6281/ab967a55d90549a2ca7ac74f034e485a7c8959dd_hq.jpg"
+    },
+    {
+      "id": "a315",
+      "nombre": "Destructor imperial",
+      "precio": "500",
+      "imagen": "https://m.media-amazon.com/images/I/71tMF7WXFbL.jpg"
+    },
+    {
+      "id": "6902",
+      "nombre": "Han Solo Funko",
+      "precio": "250",
+      "imagen": "https://m.media-amazon.com/images/I/71rjFz8wWiL._AC_UF894,1000_QL80_.jpg"
+    },
+    {
+      "id": "8914",
+      "nombre": "Sable de luz oscuro",
+      "precio": "1000",
+      "imagen": "https://pic-image-vidio-files.cxsaber.com/category/10/image/2024/02/20/688301605a5ed7d63ac4f0b623c7a637.jpg"
+    },
+    {
+      "id": "b61e",
+      "nombre": "Estrella de la muerte lego",
+      "precio": "2000",
+      "imagen": "https://m.media-amazon.com/images/I/91vIUgfOhpL.jpg"
+    },
+    {
+      "id": "5b14",
+      "nombre": "Chewbacca",
+      "precio": "500",
+      "imagen": "https://m.media-amazon.com/images/I/51D-mJS12gL.jpg"
+    }
+  ]
+}

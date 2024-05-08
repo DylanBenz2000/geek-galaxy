@@ -1,0 +1,23 @@
+{
+  "name": "geek-galaxy",
+  "version": "1.0.0",
+  "description": "Plataforma para agregar productos",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DylanBenz2000/geek-galaxy.git"
+  },
+  "author": "Dylan Ramos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DylanBenz2000/geek-galaxy/issues"
+  },
+  "homepage": "https://github.com/DylanBenz2000/geek-galaxy#readme",
+  "dependencies": {
+    "json-server": "^1.0.0-alpha.23",
+    "sweetalert2": "^11.10.8"
+  }
+}
