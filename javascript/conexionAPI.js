@@ -1,15 +1,10 @@
 
+import firebaseConfig from './config.js';
+
 const formulario = document.querySelector('[data-formulario]');
 const lista = document.querySelector('[data-lista]');
 
-const app = firebase.initializeApp({
-    apiKey: "AIzaSyBk1oWrtmcWVVE8ZKBtrN--r1SHfKdfbwc",
-    authDomain: "galaxy-geek-crud.firebaseapp.com",
-    projectId: "galaxy-geek-crud",
-    storageBucket: "galaxy-geek-crud.appspot.com",
-    messagingSenderId: "420472524705",
-    appId: "1:420472524705:web:d21126c84ec44ed34f85e0"
-  });
+const app = firebase.initializeApp(firebaseConfig);
 
 const db = firebase.firestore();
 
